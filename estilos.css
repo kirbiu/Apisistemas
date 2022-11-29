@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #12c6b4;
+	color: #1d1d1d;
+}
+
+
+body h1{
+	font-family: 'Montserrat', sans-serif;
+	background: #12c6b4;
+	color: #1d1d1d;
+    text-align: center;
+}
+
+.contenedor {
+	width: 100%;
+	max-width: 1000px;
+	margin: 40px auto 40px auto;
+
+	display: grid;
+	grid-template-columns: repeat(1, 1);
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 70px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin: 40px 50px 40px 50px;
+}
